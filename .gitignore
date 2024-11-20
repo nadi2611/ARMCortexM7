@@ -1,0 +1,29 @@
+# Exclude build output directories
+/Debug/
+/Release/
+/build/
+
+# Exclude system files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# Exclude generated files
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.obj
+*.o
+
+# Exclude IDE files
+*.log
+*.dep
+*.d
+*.suo
+*.user
+*.project
+*.cproject
+*.settings
